@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ePoc Electron</title>
+    <link rel="stylesheet" href="app.css">
+
+  </head>
+  <body id="page info">
+    <main class="info-content">
+      <h1 class="pg-headline">Proof of Concept 1.0.0</h1>
+      <h2>Software Agreement</h2>
+      <p>The software is copyrighted and it is licensed to you under this agreement, not sold to you.  By downloading, installing, obtaining a license key, or otherwise accessing or using the software, you acknowledge that you have read this agreement, that you understand it, and that you accept and agree to be bound by its terms. </p>
+      <p>If you are accepting this agreement on behalf of a company, organization, educational institution, or agency, instrumentality or department of a government (an “entity”) as its authorized legal representative, then you represent and warrant that you have the power and authority to bind such entity to these terms, and references to “you” herein refer to both you, the individual end user, and the entity on whose behalf you are accepting this agreement.</p>
+      <div class="outlink">
+        <a  href="#" onclick="shell.openExternal('https://help.github.com/articles/licensing-a-repository/')">
+          Start Application</a>
+      </div>
+
+      <div>
+        <button class="closebtn" type="button" name="xbutton" onclick="ipc.sendSync('closeInfoWindow')">Close</button>
+      </div>
+    </main>
+
+  </body>
+  <script type="text/javascript">
+     let electron = require('electron');
+     let shell = electron.shell;
+     let ipc = electron.ipcRenderer;
+  </script>
+
+</html>

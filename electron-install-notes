@@ -1,0 +1,29 @@
+
+npm -v
+node -v
+
+runs on top of node.js
+
+
+# How to do a nice install of a electron project
+
+# install globally
+
+npm install -g electron
+
+# install as a dev dep
+
+npm install electron --save-dev --save-exact
+
+
+ipcMain, ipcRender, shell
+
+var childProcess = require('child_process');
+childProcess.exec('start Example.xlsx', function (err, stdout, stderr) {
+        if (err) {
+        console.error(err);
+        return;
+    }
+    console.log(stdout);
+    process.exit(0);// exit process once it is opened
+})

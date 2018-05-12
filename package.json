@@ -1,0 +1,8 @@
+{
+  "name": "ePOC",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "devDependencies": {
+    "electron": "2.0.0"
+  }
+}

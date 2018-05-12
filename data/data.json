@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Mobile",
+    "operator": "China Mobile",
+    "country": "China",
+    "aptNotes": "This Chihuahua has not eaten for three days and is lethargic"
+  },
+  {
+    "type": "Stationary",
+    "operator": "Verizon",
+    "country": "US",
+    "aptNotes": "This German Shepherd is having some back pain"
+  },
+  {
+    "type": "Stationary",
+    "operator": "ATT",
+    "country": "US",
+    "aptNotes": "This Goldfish has some weird spots in the belly"
+  },
+  {
+    "type": "Stationary",
+    "operator": "Sprint",
+    "country": "UK",
+    "description": "Cat has excessive hairballs"
+  }
+]
